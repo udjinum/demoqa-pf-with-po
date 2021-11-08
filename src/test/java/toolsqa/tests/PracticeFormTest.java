@@ -48,14 +48,14 @@ public class PracticeFormTest extends TestBase {
                 .titleTableShouldHave("Thanks for submitting the form")
                 .checkResultsValue("Student Name", firstName + " " + lastName)
                 .checkResultsValue("Student Email", email)
-                .checkResultsValue("Gender","Female")
-                .checkResultsValue("Mobile",mobileNumber)
-                .checkResultsValue("Date of Birth","10 July,1950")
-                .checkResultsValue("Subjects","Math")
-                .checkResultsValue("Hobbies","Music")
-                .checkResultsValue("Picture","ava.jpg")
-                .checkResultsValue("Address",currentAddress)
-                .checkResultsValue("State and City",state + " " + city)
+                .checkResultsValue("Gender", "Female")
+                .checkResultsValue("Mobile", mobileNumber)
+                .checkResultsValue("Date of Birth", "10 July,1950")
+                .checkResultsValue("Subjects", "Math")
+                .checkResultsValue("Hobbies", "Music")
+                .checkResultsValue("Picture", "ava.jpg")
+                .checkResultsValue("Address", currentAddress)
+                .checkResultsValue("State and City", state + " " + city)
                 .closeResultsTable();
 
         registrationPage
