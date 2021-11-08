@@ -17,9 +17,9 @@ public class PracticeFormTest extends TestBase {
             mobileNumber = faker.phoneNumber().subscriberNumber(10),
             currentAddress = faker.address().streetAddress();
 
-    public static String
-            state = "NCR",
-            city = "Delhi";
+    private static final String
+            STATE = "NCR",
+            CITY = "Delhi";
 
     @Test
     @DisplayName("Checking submit registration form")
@@ -41,7 +41,7 @@ public class PracticeFormTest extends TestBase {
                 .addHobbies("Music")
                 .uploadPicture("ava.jpg")
                 .typeCurrentAddress(currentAddress)
-                .selectStateAndCity(state, city)
+                .selectStateAndCity(STATE, CITY)
                 .clickSubmitButton();
 
         registrationPage.resultTable
@@ -55,7 +55,7 @@ public class PracticeFormTest extends TestBase {
                 .checkResultsValue("Hobbies", "Music")
                 .checkResultsValue("Picture", "ava.jpg")
                 .checkResultsValue("Address", currentAddress)
-                .checkResultsValue("State and City", state + " " + city)
+                .checkResultsValue("State and City", STATE + " " + CITY)
                 .closeResultsTable();
 
         registrationPage
