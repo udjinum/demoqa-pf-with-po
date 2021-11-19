@@ -13,7 +13,7 @@ public class PracticeFormTest extends TestBase {
     public String
             firstName = faker.name().firstName(),
             lastName = faker.name().lastName(),
-            email = faker.bothify("????##@test.ru"),
+            email = faker.bothify("????##@vest.ru"),
             mobileNumber = faker.phoneNumber().subscriberNumber(10),
             currentAddress = faker.address().streetAddress();
 
