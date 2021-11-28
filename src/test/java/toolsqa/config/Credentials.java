@@ -7,5 +7,4 @@ public interface Credentials extends Config {
 
     String login();
     String password();
-    String url();
 }
