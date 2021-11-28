@@ -7,7 +7,7 @@ import org.aeonbits.owner.ConfigFactory;
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeAll;
 import org.openqa.selenium.remote.DesiredCapabilities;
-import toolsqa.config.Credentials;
+import toolsqa.config.CredentialsConfig;
 import toolsqa.helpers.Attach;
 import toolsqa.pages.RegistrationPage;
 
@@ -15,7 +15,7 @@ import static java.lang.String.format;
 
 public class TestBase {
 
-    public static Credentials credentials = ConfigFactory.create(Credentials.class);
+    public static CredentialsConfig credentials = ConfigFactory.create(CredentialsConfig.class);
 
     @BeforeAll
     public static void setUpBeforeAll() {
