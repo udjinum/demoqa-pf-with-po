@@ -6,6 +6,7 @@ import io.qameta.allure.selenide.AllureSelenide;
 import org.aeonbits.owner.ConfigFactory;
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeAll;
+import org.junit.jupiter.api.Tag;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import toolsqa.config.Credentials;
 import toolsqa.helpers.Attach;
@@ -13,6 +14,7 @@ import toolsqa.pages.RegistrationPage;
 
 import static java.lang.String.format;
 
+@Tag("properties")
 public class TestBase {
 
     public static Credentials credentials = ConfigFactory.create(Credentials.class);
