@@ -6,7 +6,6 @@ import io.qameta.allure.selenide.AllureSelenide;
 import org.aeonbits.owner.ConfigFactory;
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeAll;
-import org.junit.jupiter.api.Tag;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import toolsqa.config.Credentials;
 import toolsqa.helpers.Attach;
@@ -14,7 +13,6 @@ import toolsqa.pages.RegistrationPage;
 
 import static java.lang.String.format;
 
-@Tag("properties")
 public class TestBase {
 
     public static Credentials credentials = ConfigFactory.create(Credentials.class);
@@ -26,7 +24,7 @@ public class TestBase {
 
         Configuration.startMaximized = true;
         SelenideLogger.addListener("AllureSelenide", new AllureSelenide());
-        Configuration.remote = format(System.getProperty("url"),login,password);
+        Configuration.remote = format(System.getProperty("selenoidUrl"),login,password);
 
         DesiredCapabilities capabilities = new DesiredCapabilities();
         capabilities.setCapability("enableVNC", true);
