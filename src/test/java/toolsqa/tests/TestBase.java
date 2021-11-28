@@ -19,12 +19,12 @@ public class TestBase {
 
     @BeforeAll
     public static void setUpBeforeAll() {
-        String login = credentials.login();
-        String password = credentials.password();
-
         Configuration.startMaximized = true;
         SelenideLogger.addListener("AllureSelenide", new AllureSelenide());
-        Configuration.remote = format(System.getProperty("selenoidUrl"),login,password);
+        Configuration.remote = format("https://%s:%s@",
+                credentials.login(),
+                credentials.password(),
+                System.getProperty("selenoidUrl"));
 
         DesiredCapabilities capabilities = new DesiredCapabilities();
         capabilities.setCapability("enableVNC", true);
