@@ -21,7 +21,7 @@ public class TestBase {
     public static void setUpBeforeAll() {
         Configuration.startMaximized = true;
         SelenideLogger.addListener("AllureSelenide", new AllureSelenide());
-        Configuration.remote = format("https://%s:%s@",
+        Configuration.remote = format("https://%s:%s@%s",
                 credentials.login(),
                 credentials.password(),
                 System.getProperty("selenoidUrl"));
