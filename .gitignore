@@ -22,7 +22,6 @@
 
 # Project gen files
 .idea
-.allure/
 .gradle/
 allure-results/
 build/
