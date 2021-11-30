@@ -1,0 +1,11 @@
+[ {
+  "uid" : "c4585192cf7d1b9d",
+  "name" : "Checking submit registration form",
+  "time" : {
+    "start" : 1637778863493,
+    "stop" : 1637778916728,
+    "duration" : 53235
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

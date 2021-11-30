@@ -1,0 +1,62 @@
+{
+  "uid" : "d6597f4b89e6b507",
+  "name" : "Checking submit registration form",
+  "fullName" : "toolsqa.tests.PracticeFormTest.submitRegistrationFormTest",
+  "historyId" : "da88a51427abb53f79278e4bd1b00aa",
+  "time" : {
+    "start" : 1637778315000,
+    "stop" : 1637778326086,
+    "duration" : 11086
+  },
+  "description" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "junit.platform.uniqueid",
+    "value" : "[engine:junit-jupiter]/[class:toolsqa.tests.PracticeFormTest]/[method:submitRegistrationFormTest()]"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-SER1J3K"
+  }, {
+    "name" : "thread",
+    "value" : "5572@DESKTOP-SER1J3K.Test worker(11)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "toolsqa.tests.PracticeFormTest"
+  }, {
+    "name" : "testClass",
+    "value" : "toolsqa.tests.PracticeFormTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "submitRegistrationFormTest"
+  }, {
+    "name" : "suite",
+    "value" : "toolsqa.tests.PracticeFormTest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "d6597f4b89e6b507.json",
+  "parameterValues" : [ ]
+}

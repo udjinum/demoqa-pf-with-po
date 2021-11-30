@@ -1,0 +1,26 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "children" : [ {
+    "name" : "toolsqa.tests.PracticeFormTest",
+    "children" : [ {
+      "name" : "submitRegistrationFormTest",
+      "uid" : "c4585192cf7d1b9d",
+      "parentUid" : "b5c0ebbc9b6739b603d14b1bb603a459",
+      "status" : "passed",
+      "time" : {
+        "start" : 1637778863493,
+        "stop" : 1637778916728,
+        "duration" : 53235
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 3,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "toolsqa.tests.PracticeFormTest"
+  } ],
+  "name" : "packages"
+}

@@ -1,0 +1,93 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "children" : [ {
+    "name" : "DESKTOP-SER1J3K",
+    "children" : [ {
+      "name" : "7800@DESKTOP-SER1J3K.Test worker(11)",
+      "children" : [ {
+        "name" : "Checking submit registration form",
+        "uid" : "b66af5c4208747a2",
+        "parentUid" : "59b49cb17b517cca6cc7028e47c7d59a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1637778760916,
+          "stop" : 1637778814260,
+          "duration" : 53344
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "59b49cb17b517cca6cc7028e47c7d59a"
+    }, {
+      "name" : "6816@DESKTOP-SER1J3K.Test worker(11)",
+      "children" : [ {
+        "name" : "Checking submit registration form",
+        "uid" : "5bd23a70763abbb7",
+        "parentUid" : "86210bbe18af3c96ffcb5d0186187bd0",
+        "status" : "passed",
+        "time" : {
+          "start" : 1637778376660,
+          "stop" : 1637778385209,
+          "duration" : 8549
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "86210bbe18af3c96ffcb5d0186187bd0"
+    }, {
+      "name" : "2884@DESKTOP-SER1J3K.Test worker(11)",
+      "children" : [ {
+        "name" : "Checking submit registration form",
+        "uid" : "c4585192cf7d1b9d",
+        "parentUid" : "6e389e5e1168af872a43c814bd9ec556",
+        "status" : "passed",
+        "time" : {
+          "start" : 1637778863493,
+          "stop" : 1637778916728,
+          "duration" : 53235
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 3,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "6e389e5e1168af872a43c814bd9ec556"
+    }, {
+      "name" : "5572@DESKTOP-SER1J3K.Test worker(11)",
+      "children" : [ {
+        "name" : "Checking submit registration form",
+        "uid" : "d6597f4b89e6b507",
+        "parentUid" : "6da5ab63fffcef999c568081400f2ab1",
+        "status" : "passed",
+        "time" : {
+          "start" : 1637778315000,
+          "stop" : 1637778326086,
+          "duration" : 11086
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "6da5ab63fffcef999c568081400f2ab1"
+    } ],
+    "uid" : "b526616eac33e22ad35764b4715976f5"
+  } ],
+  "name" : "timeline"
+}
